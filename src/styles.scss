@@ -1,0 +1,35 @@
+.Sidebar {
+  width: 200px;
+  height: 100%;
+  background-color: #3f74d5;
+
+  .Sidebar-image {
+    margin: auto;
+    padding-bottom: 100px;
+    width: 80%;
+    height: auto;
+    display: block;
+  }
+}
+.sidebar-button {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border-color: black;
+  padding: 5px;
+  background-color: rgb(218, 219, 220);
+  color: black;
+  text-align: center;
+  font-size: 14px;
+}
+
+// .App-header {
+//   background-color: #282c34;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: calc(10px + 2vmin);
+//   color: white;
+// }

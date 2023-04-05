@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import modernOffice from "./components/images/modernOffice.jpeg";
+import mac from "./components/images/mac.jpeg";
 
-function App() {
+function TheSidebar() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Sidebar">
+      <img src={modernOffice} className="Sidebar-image" alt="sb-image" />
+      <button className="sidebar-button">Button 1</button>
+      <button className="sidebar-button">Button 2</button>
+      <button className="sidebar-button">Button 3</button>
+      <button className="sidebar-button">Button 4</button>
+      <button className="sidebar-button">Button 5</button>
+      <img src={mac} className="Sidebar-image" alt="sb-image" />
     </div>
   );
 }
 
-export default App;
+export default TheSidebar;
